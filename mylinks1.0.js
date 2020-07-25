@@ -78,7 +78,7 @@ function ee__(i) {
   if (document.getElementById("owner") == null) { return; } if (document.getElementById("pp") == null) { return; } if (servidor.codigo != mylinks.titulo.codigo) { return; }
 }
 servidor = {
-  codigo: 130219861
+  codigo: 13021986
 };
 function cc__() {
   if (document.getElementById("owner") == null) { return; } if (document.getElementById("pp") == null) { return; } if (servidor.codigo != mylinks.titulo.codigo) { return; }
