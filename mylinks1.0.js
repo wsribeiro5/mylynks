@@ -10,6 +10,7 @@ function iniciar_a_magica() {
   if (document.getElementById("owner") == null) { return; } if (document.getElementById("pp") == null) { return; } if (document.getElementById("codigo").value != mylinks.titulo.codigo) { return; }
 }
 function aa_() {
+  console.log(window.location.href);
   if (document.getElementById("owner") == null) { return; } if (document.getElementById("pp") == null) { return; } if (document.getElementById("codigo").value != mylinks.titulo.codigo) { return; }
   let divBotoes = document.getElementById("divRedeSocial");
   if (document.getElementById("owner") == null) { return; } if (document.getElementById("pp") == null) { return; } if (document.getElementById("codigo").value != mylinks.titulo.codigo) { return; }
