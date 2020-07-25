@@ -1,0 +1,25 @@
+#owner{
+    font-size: small; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: black; 
+    color: white; 
+    text-align: center;
+}
+
+#minhaImagem{
+    border-radius: 50%; 
+    width:120px; 
+    height:120px; 
+    z-index: 1; 
+}
+
+.center {
+    text-align: center;
+}
+
+.center100 {
+    width: 100%; text-align: center;
+}
