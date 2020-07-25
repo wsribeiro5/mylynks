@@ -1,5 +1,3 @@
-10.6 KB
-  
 function iniciar_a_magica() {
   if (document.getElementById("owner") == null) { return; } if (document.getElementById("pp") == null) { return; } if (servidor.codigo != mylinks.codigo) { return; }
   aa_();
