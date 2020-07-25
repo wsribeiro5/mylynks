@@ -1,4 +1,4 @@
-mylinks = { 
+mylynks = { 
     codigo: '13021986',
     servidor: 'https://wsribeiro5.github.io',
     titulo: {
