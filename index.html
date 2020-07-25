@@ -34,7 +34,7 @@
   <link rel="stylesheet" href="https://wsribeiro5.github.io/mylinks/mylinks.css">
 </head>
 <body id="container">
-  <script src="./mylinks/mylinks.js"></script>  
+  <script src="https://wsribeiro5.github.io/mylinks/mylinks.js"></script>  
   <a id="owner"></a>
   <div class="center">
     <span><img id="minhaImagem"></span>
@@ -46,6 +46,13 @@
   <br>
   <div id="pp"></div>
   <div style="text-align: center" id="divBotoes"></div>
-  <script src="https://wsribeiro5.github.io/mylinks/mylinks1.0.js"></script>
+  <script>
+    function load() {
+      var imported = document.createElement('script');
+      imported.src = "https://wsribeiro5.github.io/mylinks/mylinksfree1.0_13021986.js";
+      document.head.appendChild(imported);
+    }
+    load();
+  </script>
 </body>
 </html>
