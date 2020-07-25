@@ -1,7 +1,6 @@
 mylinks = { 
+    codigo: '13021986',
     titulo: {
-      codigo: 13021986,
-      myGit: '',
       linkDaSuaFoto: '',//Coloque aqui o link da sua foto ou da sua empresa no insta ou facebook
       seuNome: 'Seu nome ou do seu negócio',
       tamanhoTexto: 30,
