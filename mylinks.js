@@ -1,5 +1,6 @@
 mylinks = { 
     codigo: '13021986',
+    servidor: 'https://wsribeiro5.github.io',
     titulo: {
       linkDaSuaFoto: '',//Coloque aqui o link da sua foto ou da sua empresa no insta ou facebook
       seuNome: 'Seu nome ou do seu negócio',
