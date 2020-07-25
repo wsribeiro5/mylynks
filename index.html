@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta property="og:locale" content="pt_BR">
@@ -8,7 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">  
   <meta name="description"
     content="É perfeito para você que é organizad@ e gosta de compartilhar os seus links no instagram, facebook ou whatsapp de forma simples e personalizada">
-  <meta name="keywords"
+    <meta property="og:description"
+    content="É perfeito para você que é organizad@ e gosta de compartilhar os seus links no instagram, facebook ou whatsapp de forma simples e personalizada">
+    <meta name="keywords"
     content="Colecionador, links, arvore de links, pro, free, arvore de links, instagram, facebook, whatsapp, personalizado, marketing digital, empreendedor, emprendedorismo, vendedor, tree">
   <meta name="distribution" content="Global">
   <meta name="robots" content="index, follow">
@@ -28,189 +30,23 @@
   <link rel="icon" type="image/png" sizes="16x16" href="https://wsribeiro5.github.io/wellyngtonsampaio.github.io/icone.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://wsribeiro5.github.io/wellyngtonsampaio.github.io/icone.png">
   <link rel="icon" type="image/png" sizes="96x96" href="https://wsribeiro5.github.io/wellyngtonsampaio.github.io/icone.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="https://wsribeiro5.github.io/wellyngtonsampaio.github.io/icone.png">
-  <meta property="og:description"
-    content="É perfeito para você que é organizad@ e gosta de compartilhar os seus links no instagram, facebook ou whatsapp de forma simples e personalizada">
+  <link rel="icon" type="image/png" sizes="192x192"  href="https://wsribeiro5.github.io/wellyngtonsampaio.github.io/icone.png">  
+  <link rel="stylesheet" href="C:\Users\Particular\Desktop\mylinks\mylinks.css">
 </head>
-<script>
- 
-  SeuColecionadorLinks = {
-      titulo: {
-        linkDaSuaFoto: 'https://bit.ly/logo___',//Coloque aqui o link da sua foto ou da sua empresa no insta ou facebook
-        seuNome: 'Coloque aqui o seu nome ou do seu negócio',
-        tamanhoTexto: 35,
-        corTexto: 'black'
-      },
-      fundo: {
-        cor: "#F0FFFF"
-      },
-      botoes:
-        [        
-        {
-            textoDoBotao: "Coloque aqui o nome do seu link", 
-            linkDoBotao: "Coloque aqui o seu link",
-            corDoBotao: "white",
-            corDaLetra: "", 
-            tamanhoDaLetra: '20', 
-            dataInicio: '', 
-            dataFim: ""
-          },// copie e cole sempre com a virgula no final para criar um novo botão
-          {
-            textoDoBotao: "Coloque aqui o nome do seu outro link", 
-            linkDoBotao: "Coloque aqui o seu outro link",
-            corDoBotao: "black",
-            corDaLetra: "white", 
-            tamanhoDaLetra: '30', 
-            dataInicio: '', 
-            dataFim: ""
-          },// copie e cole sempre com a virgula no final para criar um novo botão
-          
-        ],
-      redesSociais:
-        [
-          {
-            nome: 'facebook',
-            link: 'Coloque aqui o link do seu facebook',
-            imagem: 'https://wsribeiro5.github.io/wellyngtonsampaio.github.io/facebook.png'
-          },
-          {
-            nome: 'instagram',
-            link: 'Coloque aqui o link do seu instagram',
-            imagem: 'https://wsribeiro5.github.io/wellyngtonsampaio.github.io/instagram.png'
-          },
-          {
-            nome: 'youtube',
-            link: 'Coloque aqui o link do seu youtube',
-            imagem: 'https://wsribeiro5.github.io/wellyngtonsampaio.github.io/youtube.png'
-          },
-          {
-            nome: 'twitter',
-            link: 'Coloque aqui o link do seu twitter',
-            imagem: 'https://wsribeiro5.github.io/wellyngtonsampaio.github.io/twitter.png'
-          },// copie e cole sempre com a virgula no final para criar uma nova rede social
-        ]
-    }
-
-    //Seu colecionador de links será
-    
-    //https://wsribeiro5.github.io/mylinks	
-
-    //Na URL acima coloque o seu usuário do github no lugar no meu "wsribeiro5"  e está pronto para ser compartilhado
-	
-	//https://seuUsuario.github.io/mylinks
-
-    //FIM DOS DADOS DO COLECIONADOR
-    //FIM DOS DADOS DO COLECIONADOR
-    //FIM DOS DADOS DO COLECIONADOR
-  </script>
-
 <body id="container">
-  <div style="text-align: center">
-    <span class="img-circle">
-      <img id="minhaImagem" style="border-radius: 50%; width:120px; height:120px; z-index: 1;">
-    </span>
+  <script src="https://wsribeiro5.github.io/mylinks/mylinks.js"></script>  
+  <a id="owner"></a>
+  <div class="center">
+    <span><img id="minhaImagem"></span>
   </div>
-  <div style="width: 100%; text-align: center;">
+  <div class="center100">
     <div id="seuNome"></div>
     <span id="divRedeSocial"></span>
   </div>
   <br>
+  <div id="pp"></div>
+  <input type="hidden" id="codigo" value="13021986">
   <div style="text-align: center" id="divBotoes"></div>
-  <a style='font-size: small; position: fixed; left: 0; bottom: 0; width: 100%; background-color: black; color: white; text-align: center;'
-    id="owner" href='https://bit.ly/TomInsta_'>@WellyngtonSampaio_ © 2020 mylinks version. 7.0</a>
-  <script>
-    function iniciar_a_magica() {
-      aa_();
-      bb_();
-      cc__();
-      dd__();
-    }
-    function aa_() {
-      if (document.getElementById("owner") == null) { return false };
-      let divBotoes = document.getElementById("divRedeSocial");
-      if (document.getElementById("owner") == null) { return false };
-      SeuColecionadorLinks.redesSociais.forEach((item, index) => {
-        if (document.getElementById("owner") == null) { return false };
-        if (item.link != '') {
-          if (document.getElementById("owner") == null) { return false };
-          divBotoes.innerHTML = divBotoes.innerHTML + 
-          "<img style='width:35px; height:35px; padding-right:10px; border-color: transparent;' src='" + 
-          item.imagem + "' onclick='ff__(" + index + ")'></img>";
-          if (document.getElementById("owner") == null) { return false };
-        }
-        if (document.getElementById("owner") == null) { return false };
-      });
-      if (document.getElementById("owner") == null) { return false };
-    }
-    function bb_() {
-      if (document.getElementById("owner") == null) { return false };
-      let divBotoes = document.getElementById("divBotoes");
-      if (document.getElementById("owner") == null) { return false };
-      SeuColecionadorLinks.botoes.forEach((item, index) => {
-        if (document.getElementById("owner") == null) { return false };
-        if (item.textoDoBotao != '' && item.linkDoBotao != '') {
-          if (document.getElementById("owner") == null) { return false };
-          let corDoBotao = item.corDoBotao;
-          let corDaLetra = item.corDaLetra;
-          let tamanhoDaLetra = item.tamanhoDaLetra;
-          if (document.getElementById("owner") == null) { return false };
-          let today = new Date().toLocaleDateString();
-          let parts = today.split('/');
-          today = new Date(parts[2], parts[1] - 1, parts[0]);
-          let dt = new Date(parts[2], parts[1] - 1, parts[0]);
-          if (document.getElementById("owner") == null) { return false };
-          let linha = "<div style='padding-bottom: 10px'><button onclick='ee__(" 
-          + index + ")' style='border-radius: 10px; font-size:" + tamanhoDaLetra + 
-          "px; color:" + corDaLetra + "; background: " + corDoBotao +
-           "'>" + item.textoDoBotao + "</button></div>";
-          if (document.getElementById("owner") == null) { return false };
-          dt = new Date(parts[2], parts[1] - 1, parts[0]);
-          if (document.getElementById("owner") == null) { return false };
-          divBotoes.innerHTML = divBotoes.innerHTML + linha;
-          if (document.getElementById("owner") == null) { return false };
-        }
-        if (document.getElementById("owner") == null) { return false };
-      });
-      if (document.getElementById("owner") == null) { return false };
-    }
-    function ff__(i) {
-      if (document.getElementById("owner") == null) { return false };
-      window.location.href = SeuColecionadorLinks.redesSociais[i].link;
-      if (document.getElementById("owner") == null) { return false };
-    }
-    function ee__(i) {
-      if (document.getElementById("owner") == null) { return false };
-      if (SeuColecionadorLinks.botoes[i].linkDoBotao != '') {
-        if (document.getElementById("owner") == null) { return false };
-        window.location.href = SeuColecionadorLinks.botoes[i].linkDoBotao;
-        if (document.getElementById("owner") == null) { return false };
-      }
-      if (document.getElementById("owner") == null) { return false };
-    }
-    function cc__() {
-      if (document.getElementById("owner") == null) { return false };
-      document.title = SeuColecionadorLinks.titulo.seuNome;
-      if (document.getElementById("owner") == null) { return false };
-      document.getElementById("minhaImagem").src = SeuColecionadorLinks.titulo.linkDaSuaFoto
-      if (document.getElementById("owner") == null) { return false };
-      document.getElementById("seuNome").innerText = SeuColecionadorLinks.titulo.seuNome;
-      if (document.getElementById("owner") == null) { return false };
-      document.getElementById("seuNome").style = 'font-size: ' 
-      + SeuColecionadorLinks.titulo.tamanhoTexto + 'px;color:' 
-      + SeuColecionadorLinks.titulo.corTexto;
-      if (document.getElementById("owner") == null) { return false };
-    }
-    function dd__() {
-      if (document.getElementById("owner") == null) { return false };
-      if (SeuColecionadorLinks.fundo.cor != '') {
-        if (document.getElementById("owner") == null) { return false };
-        document.getElementById('container').style = 'background: ' 
-        + SeuColecionadorLinks.fundo.cor;
-        if (document.getElementById("owner") == null) { return false };
-        return;
-      }
-    }
-    iniciar_a_magica();
-  </script>
+  <script src="https://wsribeiro5.github.io/mylinks/mylinks1.0.js"></script>
 </body>
 </html>
